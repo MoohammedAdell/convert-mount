@@ -44,7 +44,7 @@ export default function App() {
       </select>
 
       <p>
-        💰 {value} {fromCur} = {converted ?? "loading..."} {toCur}
+        💰 {value} {fromCur} = {converted ?? "loading...."} {toCur}
       </p>
     </div>
   );
