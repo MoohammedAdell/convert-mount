@@ -11,7 +11,6 @@ export default function App() {
       setConverted(value);
       return;
     }
-    // add api
 
     fetch(
       `https://api.frankfurter.app/latest?amount=${value}&from=${fromCur}&to=${toCur}`
